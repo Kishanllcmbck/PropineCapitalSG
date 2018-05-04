@@ -1,0 +1,12 @@
+'main' package contains the index class file to run the program.
+
+you have two options to run the program.
+you may either run the program by multithreading or without it.
+
+ADVANTAGES BY RUNNING THE PROGRAM THROUGH MULTITHREADING
+1. process time decrease by approximately 50% which would be more substantial in a server grade processor with multicores.
+2. decrease in memory utilization.
+
+if you chose to run the program by multithreading please note the below:-
+kindly specify the int variable 'divideMultipleBasingOnCPUCores' between 10 to 100 for the program to run in threadsafe behaviour.
+more the threads, more the overload on task scheduler for the threads.
